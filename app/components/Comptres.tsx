@@ -47,7 +47,6 @@ const Comptres = () => {
                         className="w-[480px] h-80 rounded-2xl  "
                     />
                 </div>
-
                 <div className="bg-zinc-100 w-full h-[460px] rounded-3xl">
                     <Image
                         src="/bottomlefticon.png"
@@ -67,10 +66,7 @@ const Comptres = () => {
                         className="w-[490px] h-[280px] rounded-2xl"
                         alt="yappa yappa"
                     />
-
-
                 </div>
-
                 <div className="bg-zinc-100 w-full rounded-3xl">
                     <Image
                         src="/bottomlefticon.png"
@@ -92,24 +88,13 @@ const Comptres = () => {
                         alt="yappa yappa"
                     />
                 </div>
-
-
-
-
             </div>
-
-
             <div className="flex items-center justify-center">
                 <h1 className=" flex text-center items-center  mt-36 text-5xl font-bold rounded-2xl w-[700px] " >
                     Fully integrated with your Notion workspace.
-
                 </h1>
-
             </div>
-
-
         </main >
-
     )
 }
 export default Comptres

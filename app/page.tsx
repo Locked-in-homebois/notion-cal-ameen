@@ -1,3 +1,4 @@
+import Comp1b2s from "./components/Comp1b2s";
 import Comptres from "./components/Comptres"
 import Vid from "./components/vid";
 import Image from "next/image";
@@ -11,6 +12,7 @@ export default function Home() {
       <Vid />
       <Comp2 />
       <Comptres />
+      <Comp1b2s />
     </main>
   );
 }
