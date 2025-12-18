@@ -20,9 +20,9 @@ const Comp1b2s = () => {
                     width={1000}
                     height={1000}
                     alt="yappa yappa"
-                    className="w-[1000] h-[600] rounded-2xl mt-10" />
+                    className="w-[1000px] h-[600px] rounded-2xl mt-10" />
             </div>
-            <div className="grid w-[1000px] mt-8 rounded-3xl text-left gap-4 grid-cols-2 " >
+            <div className="grid w-[1000px] mt-8 rounded-3xl text-left gap-4 grid-cols-2 h-auto " >
 
                 <div className="bg-zinc-100 w-[500px] h-[450px] ">
                     <Image
@@ -72,9 +72,9 @@ const Comp1b2s = () => {
                         className="w-[490] h-[270px] rounded-2xl mt-10" />
 
 
+
+
                 </div>
-
-
             </div>
         </main>
     )
