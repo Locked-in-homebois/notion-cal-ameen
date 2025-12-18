@@ -1,7 +1,7 @@
 import Image from "next/image";
 const Comp1b2s = () => {
     return (
-        <main className="text-left">
+        <main className=" flex flex-col justify-center items-center w-max-[1000px] ">
 
             <div className="bg-zinc-100 w-[1000px] h-[763px] rounded-2xl mt-10 ">
                 <Image

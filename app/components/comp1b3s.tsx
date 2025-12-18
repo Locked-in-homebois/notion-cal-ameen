@@ -1,7 +1,7 @@
 import Image from "next/image";
 const Comp1b3s = () => {
     return (
-        <main className="text-left">
+        <main className="flex flex-col items-center justify-center max-w-[1000px]">
 
             <h1 className=" font-bold  w-[600px] place-self-center mt-10 text-4xl">
                 Work and life, playing nice. </h1>
@@ -12,11 +12,11 @@ const Comp1b3s = () => {
                     width={1110}
                     height={1110}
                     alt="yappa yappa"
-                    className="ml-5 w-[50px] h-auto" />
-                <h1 className="ml-5 font-bold mt-5">
+                    className=" w-[50px] h-auto " />
+                <h1 className=" font-bold mt-5">
                     See all your commitments in the same place </h1>
 
-                <p className="ml-5 mt-2">
+                <p className=" mt-2">
                     No more accidental conflicts between work and personal events.
                 </p>
                 <Image
@@ -30,50 +30,50 @@ const Comp1b3s = () => {
 
 
 
-            <div className=" grid grid-cols-3 mt-8 rounded-3xl text-left gap-10   ">
+            <div className=" grid grid-cols-3 mt-8 rounded-3xl text-left gap-10    ">
 
-                <div className="bg-zinc-100 rounded-2xl h-40">
+                <div className="bg-zinc-100 rounded-2xl px-3 py-2 px-3 py-2h-40">
                     <Image
                         src="/iconcall.png"
                         width={1110}
                         height={1110}
                         alt="yappa yappa"
-                        className="ml-5 w-[50px] h-auto" />
-                    <h1 className=" ml-5 font-bold">
+                        className=" w-[50px] h-auto" />
+                    <h1 className="  font-bold">
                         Connect multiple calendars
                     </h1>
-                    <p className="ml-5">
+                    <p className="">
                         Easily sync work and personal calendars.
                     </p>
 
                 </div>
 
-                <div className="bg-zinc-100 rounded-2xl h-40  ">
+                <div className="bg-zinc-100 rounded-2xl h-40 px-3 py-2 ">
                     <Image
                         src="/iconcall.png"
                         width={1110}
                         height={1110}
                         alt="yappa yappa"
-                        className="ml-5 w-[50px] h-auto" />
+                        className=" w-[50px] h-auto" />
 
-                    <h1 className=" ml-5 font-bold">
+                    <h1 className="  font-bold">
                         No more double bookings
                     </h1>
-                    <p className="ml-5">
+                    <p className="">
                         Auto-block busy slots across all your calendars.
                     </p>
                 </div >
-                <div className="bg-zinc-100 rounded-2xl h-40  ">
+                <div className="bg-zinc-100  rounded-2xl h-40 px-3 py-2 ">
                     <Image
                         src="/iconcall.png"
                         width={1110}
                         height={1110}
                         alt="yappa yappa"
-                        className="ml-5 w-[50px] h-auto" />
-                    <h1 className=" ml-5 font-bold">
+                        className=" w-[50px] h-auto" />
+                    <h1 className="  font-bold">
                         Easy-to-use mobile app
                     </h1>
-                    <p className="ml-5">
+                    <p className="">
                         View your schedule at a glance
                         and add events quickly with iOS
                         and Android widgets.
