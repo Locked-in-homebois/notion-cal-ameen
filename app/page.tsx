@@ -1,4 +1,4 @@
-
+import Navbar from "./components/navbar";
 import Comp2buttons from "./components/comp2buttons";
 import Comp6s from "./components/comp6s";
 import Comp1b3s from "./components/comp1b3s";
@@ -11,7 +11,8 @@ import Hero from "./components/Hero";
 import Comp2 from "./components/comp2";
 export default function Home() {
   return (
-    <main className="flex flex-col text-center items-center justify-center mt-32">
+    <main>
+      <Navbar />
       < Hero />
       <Vid />
       <Comp2 />
@@ -20,6 +21,7 @@ export default function Home() {
       <Comp1b3s />
       <Comp6s />
       <Comp2buttons />
-    </main >
+    </main>
   );
 }
+

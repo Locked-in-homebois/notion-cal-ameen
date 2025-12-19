@@ -1,12 +1,12 @@
 import Image from "next/image";
 const Comp1b3s = () => {
     return (
-        <main className="flex flex-col items-center justify-center max-w-[1000px]">
+        <main className="flex flex-col items-center  justify-center max-w-[1000px] w-full">
 
             <h1 className=" font-bold  w-[600px] place-self-center mt-10 text-4xl">
                 Work and life, playing nice. </h1>
 
-            <div className="bg-zinc-100 w-[1000px] h-[763px] rounded-2xl mt-10 ">
+            <div className="bg-zinc-100  h-[763px] rounded-2xl mt-10 ">
                 <Image
                     src="/iconcall.png"
                     width={1110}

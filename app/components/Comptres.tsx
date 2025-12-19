@@ -1,7 +1,7 @@
 import Image from "next/image";
 const Comptres = () => {
     return (
-        <main>
+        <main className="flex flex-col text-center items-center justify-center">
             <div className=" grid   w-[1000px] mt-8 rounded-3xl text-left gap-4 grid-cols-2  ">
                 <div className="bg-zinc-100 w-full h-[480px] rounded-2xl ">
                     <Image

@@ -1,7 +1,7 @@
 import Image from "next/image";
 const Comp2 = () => {
     return (
-        <main>
+        <main className="flex flex-col text-center items-center justify-center">
             <p className="font-bold text-center rounded-b-4xl mt-10 text-5xl ">
                 Time management, simplified.
             </p>
