@@ -32,7 +32,7 @@ const Comp1b3s = () => {
 
             <div className=" grid grid-cols-3 mt-8 rounded-3xl text-left gap-10    ">
 
-                <div className="bg-zinc-100 rounded-2xl px-3 py-2 px-3 py-2h-40">
+                <div className="bg-zinc-100 rounded-2xl px-3 py-2  py-2h-40">
                     <Image
                         src="/iconcall.png"
                         width={1110}
