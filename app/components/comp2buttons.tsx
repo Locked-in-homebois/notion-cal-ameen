@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 const Comp2buttons = () => {
     return (
-        <main className="flex flex-col items-center justify-center max-w-[1000px] text-start">
+        <main className="flex flex-col items-center justify-center max-w-[1000px] text-start ">
             <h1 className="font-bold mt-10 text-4xl ">
                 Get Notion Calendar for free. </h1>
             <p className="mt-3.5">
@@ -16,28 +16,38 @@ const Comp2buttons = () => {
 
             <div className="grid grid-cols-2 max-w-[1000px] w-full gap-5 mt-6  ">
 
-                <div className="bg-zinc-100 rounded-2xl w-full h-auto py-10 px-5">
+                <div className="bg-zinc-100 rounded-2xl w-full h-auto py-10 px-5 items-start ">
                     <h1 className="px-5">
                         Desktop App </h1>
                     <Image className=" w-full h-auto mt-4"
                         src="/2buttonsleft.png"
                         width={1000}
                         height={200}
-                        alt="yappa yappa"
-                    />
+                        alt="yappa yappa" />
 
-                    <Link className=" bg-amber-500 text-black" href="https://www.youtube.com/watch?v=19GUNqBsqo0">
-                        <Image className=""
-                            src="/6small.png"
-                            width={35}
-                            height={35}
-                            alt="yappa yappa"
-                        />
+                    <div className="flex items-start px-3 rounded-2xl mt-5 gap-5 ">
+                        <Link className="flex  bg-blue-600 text-black rounded-2xl px-5 " href="https://www.youtube.com/watch?v=19GUNqBsqo0">
+                            <Image className="py-0.5"
+                                src="/6small.png"
+                                width={25}
+                                height={25}
+                                alt="yappa yappa"
+                            />
 
-                        macos
+                            <h1>Mac os </h1>
+                        </Link>
+                        <Link className="flex  bg-blue-600 text-black rounded-2xl px-5 " href="https://www.youtube.com/watch?v=19GUNqBsqo0">
+                            <Image className="py-0.5"
+                                src="/6small.png"
+                                width={25}
+                                height={25}
+                                alt="yappa yappa"
+                            />
 
-                    </Link>
+                            <h1>windows </h1>
+                        </Link>
 
+                    </div>
 
 
                 </div>
@@ -50,6 +60,29 @@ const Comp2buttons = () => {
                         height={1000}
                         alt="yappa yappa"
                     />
+                    <div className="flex items-start px-3 rounded-2xl mt-5 gap-5 ">
+                        <Link className="flex  bg-blue-600 text-black rounded-2xl px-5 " href="https://www.youtube.com/watch?v=19GUNqBsqo0">
+                            <Image className="py-0.5"
+                                src="/6small.png"
+                                width={25}
+                                height={25}
+                                alt="yappa yappa"
+                            />
+
+                            <h1>Mac os </h1>
+                        </Link>
+                        <Link className="flex  bg-blue-600 text-black rounded-2xl px-5 " href="https://www.youtube.com/watch?v=19GUNqBsqo0">
+                            <Image className="py-0.5"
+                                src="/6small.png"
+                                width={25}
+                                height={25}
+                                alt="yappa yappa"
+                            />
+
+                            <h1>windows </h1>
+                        </Link>
+
+                    </div>
                 </div>
             </div>
         </main>
