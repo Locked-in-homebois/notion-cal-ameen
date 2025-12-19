@@ -1,31 +1,31 @@
 import Image from "next/image";
 const Comptres = () => {
     return (
-        <main className="flex flex-col text-center items-center justify-center">
-            <div className=" grid   w-[1000px] mt-8 rounded-3xl text-left gap-4 grid-cols-2  ">
-                <div className="bg-zinc-100 w-full h-[480px] rounded-2xl ">
+        <main className="flex flex-col  items-center justify-center">
+            <div className=" grid   w-[1000px] mt-8  text-left gap-4 grid-cols-2  ">
+                <div className="bg-zinc-100 w-full h-[490px] rounded-2xl px-5 py-7 ">
                     <Image
                         src="time-outline.svg"
-                        width={20}
-                        height={20}
-                        className="w-7 h-auto ml-8 mt-5 "
+                        width={30}
+                        height={30}
+                        className=""
                         alt="clock top left"
                     />
-                    <h1 className="font-bold ml-10 w-70 mt-4">
+                    <h1 className="font-bold w-70 mt-4 ">
                         Built-in scheduling
                     </h1>
-                    <p className="ml-8 mt-2">
+                    <p>
                         Send your availability and scheduling link to let others book time with you. No separate app.
                     </p>
                     <Image
                         src="/topleftamk.png"
                         width={430}
-                        height={560}
+                        height={460}
                         alt="yappa yappa"
-                        className="rounded-3xl ml-9"
+                        className="rounded-md mt-5 mb-4"
                     />
                 </div>
-                <div className="bg-zinc-100 w-full h-[480px] rounded-3xl">
+                <div className="bg-zinc-100 w-full h-[490px] rounded-3xl">
                     <Image
                         src="/toprighticon.png"
                         width={30}
@@ -47,17 +47,17 @@ const Comptres = () => {
                         className="w-[480px] h-80 rounded-2xl  "
                     />
                 </div>
-                <div className="bg-zinc-100 w-full h-[460px] rounded-3xl">
+                <div className="bg-zinc-100 w-full h-[490px] rounded-3xl px-8 py-4 grid gap-4">
                     <Image
                         src="/bottomlefticon.png"
                         width={1100}
                         height={1100}
                         alt="yappa yappa"
-                        className="w-10 h-auto ml-8 mt-5"
+                        className="w-10 h-auto "
                     />
-                    <h1 className="font-bold ml-8 mt-4">
+                    <h1 className="font-bold  ">
                         Modern design </h1>
-                    <p className="ml-5 mt-5 w-64">
+                    <p className="  w-64">
                         Use command menu and shortcuts for efficient workflows.</p>
                     <Image
                         src="/bottomleftamk.png"
@@ -89,8 +89,8 @@ const Comptres = () => {
                     />
                 </div>
             </div>
-            <div className="flex items-center justify-center">
-                <h1 className=" flex text-center items-center  mt-36 text-5xl font-bold rounded-2xl w-[700px] " >
+            <div className="flex items-center text-center justify-center ">
+                <h1 className="mt-36 text-5xl font-bold  w-[700px]" >
                     Fully integrated with your Notion workspace.
                 </h1>
             </div>
