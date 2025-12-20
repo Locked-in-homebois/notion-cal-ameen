@@ -9,10 +9,11 @@ import Image from "next/image";
 import Link from "next/link";
 import Hero from "./components/Hero";
 import Comp2 from "./components/comp2";
+import Navbarsecond from "./components/navbarsecond";
 export default function Home() {
   return (
     <main>
-      <Navbar />
+      <Navbarsecond />
       < Hero />
       <Vid />
       <Comp2 />
