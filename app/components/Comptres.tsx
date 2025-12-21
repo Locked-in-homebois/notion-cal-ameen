@@ -1,9 +1,9 @@
 import Image from "next/image";
 const Comptres = () => {
     return (
-        <main className="flex flex-col  items-center justify-center">
-            <div className=" grid   w-[1000px] mt-8  text-left gap-4 grid-cols-2  ">
-                <div className="bg-zinc-100 w-full h-[490px] rounded-2xl px-5 py-7 ">
+        <main className="flex flex-col items-center justify-center">
+            <div className=" md:grid grid-cols-2 gap-4 max-w-[1000px] mt-10 text-left">
+                <div className="bg-zinc-100 rounded-2xl md:px-0 px-6 py-3 grid md:gap-4">
                     <Image
                         src="time-outline.svg"
                         width={30}
@@ -11,7 +11,7 @@ const Comptres = () => {
                         className=""
                         alt="clock top left"
                     />
-                    <h1 className="font-bold w-70 mt-4 ">
+                    <h1 className="font-bold">
                         Built-in scheduling
                     </h1>
                     <p>
@@ -19,81 +19,78 @@ const Comptres = () => {
                     </p>
                     <Image
                         src="/topleftamk.png"
-                        width={430}
-                        height={460}
+                        width={500}
+                        height={500}
                         alt="yappa yappa"
-                        className="rounded-md mt-5 mb-4"
+                        className="rounded-md"
                     />
                 </div>
-                <div className="bg-zinc-100 w-full h-[490px] rounded-3xl px-4 py-2 grid gap-1">
+                <div className="bg-zinc-100 w-full h-auto rounded-2xl px-6 py-3 grid gap-4  ">
                     <Image
                         src="/toprighticon.png"
                         width={30}
                         height={30}
                         alt="yappa yappa"
-                        className="w-7 h-auto  mt-5"
+                        className=""
                     />
-                    <h1 className="font-bold  mt-4" >
+                    <h1 className="font-bold" >
                         Work across time zones
                     </h1>
-                    <p className=" mt-2 w-[390px]" >
+                    <p>
                         Thoughtfully collaborate with global teams as you visualize your day across time zones.
                     </p>
                     <Image
                         src="/toprightamk.png"
-                        width={450}
-                        height={460}
+                        width={500}
+                        height={500}
                         alt="yappa yappa"
-                        className="w-[480px] h-80 rounded-2xl  "
+                        className="rounded-2xl"
                     />
                 </div>
-                <div className="bg-zinc-100 w-full h-[490px] rounded-3xl px-8 py-4 grid gap-4">
+                <div className="bg-zinc-100 w-full h-auto rounded-3xl px-8 py-4 grid gap-4">
                     <Image
                         src="/bottomlefticon.png"
-                        width={1100}
-                        height={1100}
+                        width={30}
+                        height={30}
                         alt="yappa yappa"
-                        className="w-10 h-auto "
                     />
-                    <h1 className="font-bold  ">
-                        Modern design </h1>
-                    <p className="  w-64">
+                    <h1 className="font-bold">
+                        Modern design
+                    </h1>
+                    <p className="  max-w-64">
                         Use command menu and shortcuts for efficient workflows.</p>
                     <Image
                         src="/bottomleftamk.png"
-                        width={1100}
-                        height={1100}
-                        className="w-[490px] h-[280px] rounded-2xl"
+                        width={500}
+                        height={500}
                         alt="yappa yappa"
                     />
                 </div>
-                <div className="bg-zinc-100 w-full rounded-3xl grid gap-2 px-4 py-1">
+                <div className="bg-zinc-100 w-full h-auto rounded-2xl px-6 py-3 grid gap-4">
                     <Image
                         src="/bottomlefticon.png"
-                        width={1100}
-                        height={1100}
+                        width={30}
+                        height={30}
                         alt="yappa yappa"
-                        className="w-10 h-auto  mt-5"
                     />
-                    <h1 className="font-bold  mt-4">
+                    <h1 className="font-bold">
                         Available in 12 languages </h1>
-                    <p className=" mt-2 w-100">
-                        Supports English, Japanese, Korean, French, German, Spanish, Portuguese, Danish, Dutch, Finnish, Norwegian, and Swedish… with more on the way!
+                    <p>
+                        Supports English, Japanese, Korean, French, German, Spanish, Portuguese, Danish, Dutch, Finnish,
+                        Norwegian, and Swedish… with more on the way!
                     </p>
                     <Image
                         src="/bottomrightamk.png"
-                        width={1100}
-                        height={1100}
-                        className="w-[490px] h-[280px] rounded-2xl"
+                        width={500}
+                        height={500}
                         alt="yappa yappa"
+                        className=""
                     />
                 </div>
             </div>
-            <div className="flex items-center text-center justify-center ">
-                <h1 className="mt-36 text-5xl font-bold  w-[700px]" >
-                    Fully integrated with your Notion workspace.
-                </h1>
-            </div>
+            <h1 className=" text-center mt-36 text-5xl font-bold max-w-[580px] " >
+                Fully integrated with your Notion workspace.
+            </h1>
         </main >
     )
 }

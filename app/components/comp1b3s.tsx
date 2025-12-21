@@ -1,23 +1,23 @@
 import Image from "next/image";
 const Comp1b3s = () => {
     return (
-        <main className="flex flex-col items-center  justify-center ">
+        <main className="flex flex-col items-center justify-center ">
             <div className="max-w-[1000px]">
 
-                <h1 className=" font-bold  w-[600px] place-self-center mt-10 text-4xl">
+                <h1 className=" font-bold  place-self-center mt-10 text-4xl">
                     Work and life, playing nice. </h1>
 
-                <div className="bg-zinc-100  h-[763px] rounded-2xl mt-10 ">
+                <div className="bg-zinc-100  rounded-2xl mt-10 px-2 py-4 grid gap-4 ">
                     <Image
                         src="/iconcall.png"
-                        width={1110}
-                        height={1110}
+                        width={50}
+                        height={50}
                         alt="yappa yappa"
-                        className=" w-[50px] h-auto " />
-                    <h1 className=" font-bold mt-5">
+                    />
+                    <h1 className=" font-bold ">
                         See all your commitments in the same place </h1>
 
-                    <p className=" mt-2">
+                    <p>
                         No more accidental conflicts between work and personal events.
                     </p>
                     <Image
@@ -25,7 +25,7 @@ const Comp1b3s = () => {
                         width={1000}
                         height={1000}
                         alt="yappa yappa"
-                        className="w-[1000px] h-[607px] rounded-2xl mt-10" />
+                        className="w-[1000px] h-fit rounded-2xl mt-10" />
 
                 </div>
 

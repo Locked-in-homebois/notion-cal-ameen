@@ -13,16 +13,15 @@ const navitems = [
 const navitemsright = [
     { lable: "Log In", href: "#", className: "hover:bg-gray-500 px-2 py-2 items-center " },
     { lable: "get notion calendar for free", href: "#", sixseven: "px-2 bg-black text-white py-2 rounded-md items-center hover:bg-red-600" },
-
 ];
 const navitemsleft = {
     image: { src: "/nlogo.png", alt: "logo" }
 }
 const Navbarsecond = () => {
     return (
-        <nav className="px-4 py-2 sticky top-0 justify-between backdrop-blur-3xl  max-h-14 items-center ">
-            <div className="grid grid-cols-3">
-                <div className="flex justify-self-start px-1 py-2">
+        <nav className="px-4 py-2 sticky top-0 justify-between backdrop-blur-3xl  max-h-14 items-center w-full ">
+            <div className="grid md:grid-cols-3">
+                <div className="flex md:justify-self-start px-1 py-2">
                     <Link href="/">
                         <Image className=""
                             src={navitemsleft.image.src}
@@ -33,7 +32,7 @@ const Navbarsecond = () => {
                         </Image>
                     </Link>
                 </div>
-                <div className="flex gap-5 overflow-hidden w-[1000px] items-center">
+                <div className="md:flex gap-5 overflow-hidden w-[1000px] items-center">
                     {navitems.map((items, index) => (
                         <Link
                             className="hover:bg-gray-500 rounded-md px-1 py-1"
@@ -53,7 +52,6 @@ const Navbarsecond = () => {
                             href={items.href}>
                             {items.lable}
                         </Link>
-
                     ))}
                 </div>
             </div>

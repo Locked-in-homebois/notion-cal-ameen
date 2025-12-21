@@ -1,9 +1,9 @@
 import Image from "next/image";
 const Comp6s = () => {
     return (
-        <main className="flex flex-col items-center justify-center mx-auto    ">
+        <main className="flex flex-col items-center justify-self-center mx-auto">
             <div className="max-w-[1000px] ">
-                <h1 className="font-bold text-4xl mt-14 text-center w-96 items-center ">
+                <h1 className="font-bold text-4xl mt-14 text-center  items-center ">
                     Designed to work with your favorite tools. </h1>
 
 
@@ -85,7 +85,7 @@ const Comp6s = () => {
                             Bring in important dates across workspaces into one calendar.
                         </p>
                     </div>
-                    <div className="bg-zinc-100 rounded-md px-6 py-4">
+                    <div className="bg-zinc-100 rounded-md px-6 py-4 ">
 
                         <Image className=""
                             src="/6small.png"
@@ -93,10 +93,10 @@ const Comp6s = () => {
                             height={35}
                             alt="yappa yappa"
                         />
-                        <h1 className="text-left font-bold">
+                        <h1 className=" font-bold">
                             Notion
                         </h1>
-                        <p className="text-left">
+                        <p>
                             Bring in important dates across workspaces into one calendar.
                         </p>
                     </div>

@@ -2,15 +2,15 @@ import Image from "next/image";
 import Link from "next/link";
 const Comp2buttons = () => {
     return (
-        <main className="flex flex-col items-center justify-center  text-start ">
-            <div className="max-w-[1000px]">
+        <main className="flex flex-col items-center justify-self-center text-center px-4 ">
+            <div className="max-w-[1000px] grid gap-3">
                 <h1 className="font-bold mt-10 text-4xl ">
                     Get Notion Calendar for free. </h1>
-                <p className="mt-3.5">
+                <p className="">
                     Unlock a better way to manage your time and life.
                 </p>
 
-                <Link className="text-blue-600 mt-4 hover:text-black hover:underline" href="https://www.youtube.com/watch?v=rb0bjyt1OD0">
+                <Link className="text-blue-600 hover:text-black hover:underline" href="https://www.youtube.com/watch?v=rb0bjyt1OD0">
                     Get Notion Calendar free →
                 </Link>
 
@@ -79,8 +79,7 @@ const Comp2buttons = () => {
                                     height={25}
                                     alt="yappa yappa"
                                 />
-
-                                <h1>windows </h1>
+                                <h1> windows </h1>
                             </Link>
 
                         </div>
