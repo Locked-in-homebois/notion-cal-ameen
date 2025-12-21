@@ -3,14 +3,14 @@ const Comp1b2s = () => {
     return (
         <main className=" flex flex-col justify-center items-center w-max-[1000px] ">
 
-            <div className="bg-zinc-100 w-[1000px] h-[763px] rounded-2xl mt-10 ">
+            <div className="bg-zinc-100 w-[1000px] h-[763px] rounded-2xl mt-10  px-4 py-2 ">
                 <Image
                     src="/iconcall.png"
                     width={1110}
                     height={1110}
                     alt="yappa yappa"
-                    className="ml-5 w-[50px] h-auto" />
-                <h1 className="font-bold text-[22px] ml-5 ">
+                    className=" w-[50px] h-auto" />
+                <h1 className="font-bold text-[22px]  ">
                     Manage your time and work, together.</h1>
                 <p className="w-[500px]">
                     See deadlines and project timelines alongside your calendar events
@@ -22,19 +22,19 @@ const Comp1b2s = () => {
                     alt="yappa yappa"
                     className="w-[1000px] h-[600px] rounded-2xl mt-10" />
             </div>
-            <div className="grid w-[1000px] mt-8 rounded-3xl text-left gap-4 grid-cols-2 h-auto " >
+            <div className="grid grid-cols-2 w-[1000px] mt-8  text-left gap-4 h-auto rounded-md  " >
 
-                <div className="bg-zinc-100 w-[500px] h-[450px] ">
+                <div className="bg-zinc-100 max-w-[500px] h-auto px-4 py-2 rounded-md grid gap-2  ">
                     <Image
                         src="/2&1lefticon.png"
                         width={1110}
                         height={1110}
                         alt="yappa yappa"
-                        className="ml-5 w-[45px] h-auto mt-5" />
-                    <h1 className="font-bold text-[22px] ml-5 ">
+                        className=" w-[45px] h-auto " />
+                    <h1 className="font-bold text-[22px]  ">
                         Connect and create Notion docs
                     </h1>
-                    <p className="w-[400px] ml-5 mt-3">
+                    <p className="max-w-[400px]  ">
                         With info from Notion right in your calendar, you’ll always
                         have full context for every meeting.
                     </p>
@@ -43,24 +43,24 @@ const Comp1b2s = () => {
                         width={1000}
                         height={1000}
                         alt="yappa yappa"
-                        className="w-[490] h-[230px] rounded-2xl mt-10" />
+                        className="w-[490] h-auto rounded-2xl" />
                 </div>
 
 
 
-                <div className="bg-zinc-100">
+                <div className="bg-zinc-100 px-4 py-2 rounded-md">
                     <Image
                         src="/2&1righticon.png"
                         width={1110}
                         height={1110}
                         alt="yappa yappa"
-                        className="ml-5 w-[45px] h-auto mt-5" />
+                        className=" w-[45px] h-auto mt-5" />
 
 
-                    <h1 className="font-bold text-[17px] ml-5 ">
+                    <h1 className="font-bold text-[17px]  ">
                         Connect and create Notion docs
                     </h1>
-                    <p className="w-[400px] ml-5 mt-3">
+                    <p className="w-[400px]  mt-3">
                         Just drag and drop to edit Notion database items with-
                         out leaving your calendar.
                     </p>

@@ -25,18 +25,18 @@ const Comptres = () => {
                         className="rounded-md mt-5 mb-4"
                     />
                 </div>
-                <div className="bg-zinc-100 w-full h-[490px] rounded-3xl">
+                <div className="bg-zinc-100 w-full h-[490px] rounded-3xl px-4 py-2 grid gap-1">
                     <Image
                         src="/toprighticon.png"
                         width={30}
                         height={30}
                         alt="yappa yappa"
-                        className="w-7 h-auto ml-8 mt-5"
+                        className="w-7 h-auto  mt-5"
                     />
-                    <h1 className="font-bold ml-8 mt-4" >
+                    <h1 className="font-bold  mt-4" >
                         Work across time zones
                     </h1>
-                    <p className="ml-8 mt-2 w-[390px]" >
+                    <p className=" mt-2 w-[390px]" >
                         Thoughtfully collaborate with global teams as you visualize your day across time zones.
                     </p>
                     <Image
@@ -67,17 +67,17 @@ const Comptres = () => {
                         alt="yappa yappa"
                     />
                 </div>
-                <div className="bg-zinc-100 w-full rounded-3xl">
+                <div className="bg-zinc-100 w-full rounded-3xl grid gap-2 px-4 py-1">
                     <Image
                         src="/bottomlefticon.png"
                         width={1100}
                         height={1100}
                         alt="yappa yappa"
-                        className="w-10 h-auto ml-8 mt-5"
+                        className="w-10 h-auto  mt-5"
                     />
-                    <h1 className="font-bold ml-8 mt-4">
+                    <h1 className="font-bold  mt-4">
                         Available in 12 languages </h1>
-                    <p className="ml-5 mt-2 w-100">
+                    <p className=" mt-2 w-100">
                         Supports English, Japanese, Korean, French, German, Spanish, Portuguese, Danish, Dutch, Finnish, Norwegian, and Swedish… with more on the way!
                     </p>
                     <Image

@@ -1,13 +1,13 @@
 import Image from "next/image";
 const Comp6s = () => {
     return (
-        <main className="flex flex-col items-center justify-center ">
-            <div className="max-w-[1000px]">
-                <h1 className="font-bold text-4xl max-w-96 mt-14">
+        <main className="flex flex-col items-center justify-center  ">
+            <div className="max-w-[1000px] ">
+                <h1 className="font-bold text-4xl mt-14 text-center w-96">
                     Designed to work with your favorite tools. </h1>
 
 
-                <div className="grid grid-cols-3 mt-7 gap-7">
+                <div className="grid grid-cols-3 mt-10 gap-7 ">
 
                     <div className="bg-zinc-100 rounded-md px-6 py-4">
 
@@ -17,10 +17,10 @@ const Comp6s = () => {
                             height={35}
                             alt="yappa yappa"
                         />
-                        <h1 className="text-left font-bold">
+                        <h1 className=" font-bold">
                             Notion
                         </h1>
-                        <p className="text-left">
+                        <p >
                             Bring in important dates across workspaces into one calendar.
                         </p>
                     </div>
@@ -36,7 +36,7 @@ const Comp6s = () => {
                         <h1 className="text-left font-bold">
                             Notion
                         </h1>
-                        <p className="text-left">
+                        <p >
                             Bring in important dates across workspaces into one calendar.
                         </p>
                     </div>
