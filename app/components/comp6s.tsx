@@ -1,9 +1,9 @@
 import Image from "next/image";
 const Comp6s = () => {
     return (
-        <main className="flex flex-col items-center justify-center  ">
+        <main className="flex flex-col items-center justify-center mx-auto    ">
             <div className="max-w-[1000px] ">
-                <h1 className="font-bold text-4xl mt-14 text-center w-96">
+                <h1 className="font-bold text-4xl mt-14 text-center w-96 items-center ">
                     Designed to work with your favorite tools. </h1>
 
 

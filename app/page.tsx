@@ -10,6 +10,7 @@ import Link from "next/link";
 import Hero from "./components/Hero";
 import Comp2 from "./components/comp2";
 import Navbarsecond from "./components/navbarsecond";
+import Faq from "./components/faq";
 export default function Home() {
   return (
     <main>
@@ -22,6 +23,8 @@ export default function Home() {
       <Comp1b3s />
       <Comp6s />
       <Comp2buttons />
+      <Faq />
+
     </main>
   );
 }
